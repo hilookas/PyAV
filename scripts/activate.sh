@@ -48,7 +48,7 @@ import sys
 import platform
 print("{}{}.{}".format(platform.python_implementation().lower(), *sys.version_info[:2]))
     ')"
-    export PYAV_VENV="$PYAV_ROOT/venvs/$PYAV_VENV_NAME"
+    export PYAV_VENV="$PYAV_ROOT/venvs/$PYAV_VENV_NAME/local"
 
     if [[ ! -e "$PYAV_VENV/bin/python" ]]; then
         mkdir -p "$PYAV_VENV"

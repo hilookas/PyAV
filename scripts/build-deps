@@ -46,6 +46,7 @@ echo ./configure
     --enable-libx264 \
     --enable-libxml2 \
     --enable-shared \
+    --enable-libsvtav1 \
     --prefix="$PYAV_LIBRARY_PREFIX" \
     || exit 2
 echo
